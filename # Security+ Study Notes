@@ -1,5 +1,17 @@
 # Security+ Study Notes
 This repo contains my Security+ study materials, organized by domain.
-- 📚 Domain 1: Basic Security Concepts
-- 🔐 Domain 2: Network Security
-- 📄 Resources and Cheat Sheets
+Domain	Focus
+1. Attacks, Threats, and Vulnerabilities	
+          Types of malware, social engineering, threat actors, threat hunting
+
+2. Architecture and Design	Secure 
+          network architecture, cloud security, resilience
+
+3. Implementation	Secure protocols, 
+          host security, identity and access management (IAM)
+
+4. Operations and Incident Response	
+          Monitoring, detection, incident handling, digital forensics basics
+
+5. Governance, Risk, and Compliance
+          - 📄 Resources and Cheat Sheets
