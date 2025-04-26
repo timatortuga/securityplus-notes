@@ -1,1 +1,9 @@
-DOMAIN 1 General Security Concepts 12%
+DOMAIN 1 General Security Concepts 12% -  Types of malware, social engineering, threat actors, threat hunting
+CIA TRIAD
+    Confidentiality- Setting access controls on a need to know basis for users
+    Integrity- Ensuring verifying data does not changes; Hashing (map data of an arbitrary length of data or fixed length). Certificates. digital signatures, certificates, non-reudiation
+    Availability- Information is accesible to authorized users. patching, fault tolerance
+
+
+
+
