@@ -1,4 +1,9 @@
 LINUX FUNDAMENTALS 
+LOGGING INTO A LINUX MACHINE-
+  The command to do so is ssh and then the username of the account, @ the IP address of the machine.
+EX: ssh tryhackme@MACHINE_IP or ssh tryhackme@10.10.155.94
+Then you'll  be prompted with the password. No enters needed. 
+
 ls and find and navigating the filesystem using cd. 
 
 In this task, we're going to learn some more commands for interacting with the filesystem to allow us to:
