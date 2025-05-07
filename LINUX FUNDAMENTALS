@@ -104,4 +104,49 @@ NOTE: Once you start the Python3 web server,
 
 
 
+Viewing Process- PS
+________________________
+
+(ps)         ps command to provide a list of the running processes as our user's session 
+             and some additional information such as its status code, the session that is running 
+             it, how much usage time of the CPU it is using, and the name of the actual program or 
+             command that is being executed:
+
+(ps aux)    To see the processes run by other users and those that don't run from a session 
+            (i.e. system processes), we need to provide aux to the ps command like so: ps aux
+
+
+(top)       top gives you real-time statistics about the processes running on your system instead of 
+            a one-time view
+
+(kill)      terminate processes; there are a variety of types of signals that correlate to exactly 
+            how "cleanly" the process is dealt with by the kernel.
+
+                Below are some of the signals that we can 
+                send to a process when it is killed:
+
+                    SIGTERM - Kill the process, but allow it to do some cleanup tasks beforehand
+                    SIGKILL - Kill the process - doesn't do any cleanup after the fact
+                    SIGSTOP - Stop/suspend a process
+
+(systemctl [option] [service])   this command allows us to interact with the systemd process/daemon
+
+[option]'s       Start | Stop | Enable | Disable
+
+echo "Hi THM",   where we expect the output to be returned to us like it is at the 
+                 start. But after adding the & operator to the command, we're instead just given the 
+                 ID of the echo process rather than the actual output -- as it is running in the background.
+
+This is great for commands such as copying files because it means that we can run the command 
+in the background and continue on with whatever further commands we wish to execute (without 
+having to wait for the file copy to finish first)
+
+
+
+Ctrl + Z         on our keyboard to background a process. It is also an effective way of "pausing" 
+                 the execution of a script or command like in the example below:
+
+                      This script will keep on repeating "This will keep on looping until I stop!"
+
+
 
