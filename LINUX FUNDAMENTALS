@@ -149,4 +149,9 @@ Ctrl + Z         on our keyboard to background a process. It is also an effectiv
                       This script will keep on repeating "This will keep on looping until I stop!"
 
 
+systemctl [option] [service]         systemctl -- this command allows us to interact with the 
+                                     systemd process/daemon.
 
+
+ps aux                confirmed  we have a process running in the background, for example, 
+                      our script "background.sh"
