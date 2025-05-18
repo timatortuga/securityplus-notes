@@ -1,4 +1,10 @@
-Usage Instructions:
+LOGGING INTO A LINUX MACHINE-
+_____________________________________
+  The command to do so is ssh and then the username of the account, @ the IP address of the machine.
+EX: ssh tryhackme@MACHINE_IP or ssh tryhackme@10.10.155.94
+
+Then you'll  be prompted for the password. You may not see your text written out 
+continue writing the event if characters are hidden, give the system a moment to load  
 
 1. Tools are located in /root/Desktop/Tools & /opt/
 2. Webshells are located in /usr/share/webshells
